@@ -1,13 +1,18 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap');
 
+/* Common Style  */
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+    width: 80%;
+    max-width: 980px;
+    margin: auto;
+}
 :root{
     /* ===== Colors ===== */
     --primary-color: #5db2ff;
@@ -28,6 +33,45 @@
 
 /* Header Section Start */
     /* Top Nav Start */
+    .nav-part{
+        background-color: var(--secondary-color);
+    }
+    .top-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    .top-social-btn{
+        
+    }
+    .top-social-btn i{
+        font-size: 19px;
+        color: var(--social-button-color);
+    }
+    .top-info{
+        display: flex;
+        align-items: center;
+    }
+    .mail{
+        display: flex;
+        align-items: center;
+    }
+    .mail i, .phone i{
+        color: var(--primary-color);
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    .mail h4, .phone h4{
+        color: var(--font-color-black);
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+    }
+    
     /* Top Nav End */
 
     /* Navigation Start */
